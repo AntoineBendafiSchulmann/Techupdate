@@ -2,6 +2,7 @@
 * {
 	margin: 0;
 	padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
     text-align: center;
     padding: 4px;
     color: white;
-    background-color: rgb(54, 52, 52);
+    background-color: rgb(22, 21, 21);
 
 }
 
@@ -42,22 +43,95 @@ body {
 
     background-color: rgb(22, 21, 21);
     height: 630px;
+    padding-top: 10px;
+    padding-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+
 
 }
 
 .footer {
     background-color: black;
     height: 65px;
+    display: flex;
 }
 
 .name {
     color: white;
     padding: 11px;
-    text-align: center;
+    align-items: center;
+    justify-content: right;
+    display: flex;
 }
 
 .credits {
     color: white;
     padding-left: 11px;
-    text-align: center;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    margin-left: 1279px;
+}
+
+
+.contenu1 {
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    margin-left: 10px;
+    border: 3px solid rgb(32, 31, 31);
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+
+
+.contenu2 {
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    margin-left: 15px;
+    border: 3px solid rgb(32, 31, 31);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.contenu3 {
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    margin-left: 15px;
+    border: 3px solid rgb(32, 31, 31);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.contenu4 {
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    margin-left: 10px;
+    border: 3px solid rgb(32, 31, 31);
+    display: flex;
+    flex-wrap: wrap-reverse;
+    
+}
+
+
+.contenu5 {
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    margin-left: 15px;
+    border: 3px solid rgb(32, 31, 31);
+    display: flex;
+    flex-wrap: wrap-reverse;
+    
 }

@@ -1,0 +1,11 @@
+.animals, .coding_tools, .prof {
+    width: calc(100%/3);
+    border: 1px solid black;
+}
+.alpha, .dab {
+    width: calc(100%/2);
+    border: 1px solid black;
+}
+.title {
+    flex-grow: 2;
+}

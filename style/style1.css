@@ -26,7 +26,6 @@ main {
 
 .green, .blue {
     width: calc(100%/2);
-
 }
 
 ul.top{

@@ -135,3 +135,62 @@ body {
     flex-wrap: wrap-reverse;
     
 }
+
+
+@media screen and (max-width: 800px) {
+
+.header {
+    width: 1100px;
+    height: 60px;
+}
+
+.navbar {
+    width: 1100px;
+    height: 80px;
+    font-size: 30px;
+}
+
+.sec1 {
+    width: 1100px;
+    height: 2060px;
+    flex-direction: column;
+    
+}
+
+.footer {
+    width: 1100px;
+    height: 120px;
+}
+
+.name {
+    padding-left: 460px;
+    font-size: 30px;
+    
+}
+
+.contenu1 {
+    width: 1030px;
+    
+}
+
+.contenu2 {
+    width: 1030px;
+    
+}
+
+.contenu3 {
+    width: 1030px;
+}
+
+.contenu4 {
+    width: 1030px;
+}
+
+.contenu5 {
+    width: 1030px;
+}
+
+
+
+
+}

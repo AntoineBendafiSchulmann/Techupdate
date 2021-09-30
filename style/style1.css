@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #242424;
+    color: #fff;
+}
+
+/* MENU ------------------------------ */
+nav ul {
+    display: flex;
+}
+
+nav li {
+    flex-grow: 1;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 0 10px;
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* MAIN ------------------------------ */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+main div {
+    height: 200px;
+    border: 1px solid #fff;
+}
+
+/* each div takes third of the width of the page */
+main .main-row-1 {
+    width: calc(100%/3);
+    padding: 5px;
+}
+
+/* each div takes half of the width of the page */
+main .main-row-2 {
+    width: calc(100%/2);
+}
+
+/* FOOTER ---------------------------- */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
+    width : 200px;
+    border: 1px solid brown;
+    height: 100px;
+}

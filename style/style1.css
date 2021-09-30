@@ -36,16 +36,17 @@ ul.top{
 footer {
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
 }
 
 .ending {
-    justify-content: left;
     width: calc(25%);
     background: aquamarine;
+    align-items: flex-end;
 }
 
 .mention {
-    justify-content: right;
     width: calc(30%);
     background: blueviolet;
+    align-items: flex-end;
 }

@@ -1,11 +1,51 @@
-.animals, .coding_tools, .prof {
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.green {
+    background: green;
+}
+.red {
+    background: red;
+}
+.orange {
+    background: orange;
+}
+.blue {
+    background: blue;
+}
+.yellow {
+    background: yellow;
+}
+
+.red, .orange, .yellow {
     width: calc(100%/3);
-    border: 1px solid black;
+    flex-wrap: nowrap;
 }
-.alpha, .dab {
+
+.green, .blue {
     width: calc(100%/2);
-    border: 1px solid black;
+
 }
-.title {
-    flex-grow: 2;
+
+ul.top{
+    display: flex;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.ending {
+    justify-content: left;
+    width: calc(25%);
+    background: aquamarine;
+}
+
+.mention {
+    justify-content: right;
+    width: calc(30%);
+    background: blueviolet;
 }

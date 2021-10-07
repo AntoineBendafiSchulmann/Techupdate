@@ -26,6 +26,7 @@ header {
 main {
     display: flex;
     flex-wrap: wrap;
+    min-height: 100vh;
 }
 
 .navbar {
@@ -80,9 +81,13 @@ footer {
     align-items: flex-end;
     display: flex;
     justify-content: right;
-    width: calc(25%);
+    width: 25%;
 }
 
+}
+.contenu1, .contenu2, .contenu3, .contenu4, .contenu5 {
+    border: 1px solid white;
+}
 
 .contenu1 {
     width : calc(100%/3);
@@ -90,8 +95,8 @@ footer {
     display: flex;
     text-align: center;
     color: white;
-    padding: calc(1%);
-    margin-bottom: calc(1%);
+    padding: 1%;
+    margin-bottom: 1%;
 }
 
 
@@ -102,8 +107,8 @@ footer {
     display: flex;
     text-align: center;
     color: white;
-    padding: calc(1%);
-    margin-bottom: calc(1%);
+    padding: 1%;
+    margin-bottom: 1%;
 }
 
 
@@ -113,9 +118,9 @@ footer {
     display: flex;
     text-align: center;
     color: white;
-    padding: calc(1%);
+    padding: 1%;
 
-    margin-bottom: calc(1%);
+    margin-bottom: 1%;
 }
 
 .contenu4 {
@@ -125,7 +130,7 @@ footer {
     flex-wrap: nowrap;
     text-align: center;
     color: white;
-    padding: calc(1%);
+    padding: 1%;
     
 }
 
@@ -137,37 +142,38 @@ footer {
     flex-wrap: nowrap;
     text-align: center;
     color: white;
-    padding: calc(1%);
+    padding: 1%;
 }
 
 
 @media screen and (max-width: 800px) {
 
 header {
-    width: calc(100%);
+    width: 100%;
     height: 60px;
 }
 
 .navbar {
-    width: calc(100%);
+    width: 100%;
     height: 80px;
     font-size: 30px;
 }
 
 .sec1 {
-    width: calc(100%);
-    height: 2060px;
+    width: 100%;
     flex-direction: column;
 
 }
-
+    .contenu1, .contenu2, .contenu3, .contenu4, .contenu5 {
+        border: 1px solid white;
+    }
 
 .contenu1 {
     width : calc(100%/3);
     padding-left: 40px;
     padding-right: 25px;
     font-size: 25px;
-    height: 506px;
+
     margin-left: 50px;
     
 }
@@ -177,7 +183,7 @@ header {
     padding-left: 40px;
     padding-right: 25px;
     font-size: 25px;
-    height: 506px;
+
     margin-left: 50px;
 }
 
@@ -186,7 +192,7 @@ header {
     padding-left: 40px;
     padding-right: 25px;
     font-size: 25px;
-    height: 506px;
+
     margin-left: 50px;
 }
 
@@ -195,16 +201,16 @@ header {
     padding-left: 40px;
     padding-right: 25px;
     font-size: 25px;
-    height: 506px;
+
     margin-left: 50px;
 }
 
 .contenu5 {
-
+    width: calc(100%/2);
     padding-left: 40px;
     padding-right: 25px;
     font-size: 25px;
-    height: 506px;
+
     margin-left: 50px;
 }
 

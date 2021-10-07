@@ -52,7 +52,6 @@ main {
 .sec1 {
 
     background-color: rgb(22, 21, 21);
-
     padding-top: 10px;
     padding-left: 15px;
     display: flex;
@@ -84,7 +83,6 @@ footer {
     justify-content: right;
     width: 25%;
 }
-
 
 .contenu1, .contenu2, .contenu3, .contenu4, .contenu5 {
     border: 1px solid white;
@@ -202,7 +200,6 @@ header {
     padding-left: 40px;
     padding-right: 25px;
     font-size: 25px;
-
     margin-left: 50px;
 }
 
@@ -211,7 +208,6 @@ header {
     padding-left: 40px;
     padding-right: 25px;
     font-size: 25px;
-
     margin-left: 50px;
 }
 

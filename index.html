@@ -1,35 +1,97 @@
 <!DOCTYPE html>
 <html>
 	<head> <!-- Entete du document -->
-		<title>Techupdate</title>
-		<link rel="stylesheet" type="text/css" href="style/style1.css">
-		<script type="text/javascript" src="index.js"></script>
-		<meta name="description" content="Ma description">
-		<meta name="author"content="A2 DW">
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1"> <!-- pour installer le responsive pour adapter appareils mobiles -->
+	<title>Techupdate</title>
+	<link rel="stylesheet" type="text/css" href="style/style1.css">
+	<script type="text/javascript" src="index.js"></script>
+	<meta name="description" content="Ma description">
+	<meta name="author"content="A2 DW">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1"> <!-- pour installer le responsive pour adapter appareils mobiles -->
 	</head>
+<body>
+    <header>
+        <h1>How to do Basic Front</h1>
+    </header> 
+	<nav class="navbar">
+        <ul class="navbar_links">
 
-	<body>
-		<header>
-			<nav class="menu">
-				<ul>
-					<h1>TECH UPDATE - CSS</h1>
-					<li><a href="">HOME</a></li>
-					<li><a href="">TUTO</a></li>
-					<li><a href="">LIENS UTILES</a></li>
-				</ul>
-			</nav>
-		</header>
-		<main>
-			<div class="item main-row-1"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis adipisci nostrum nemo voluptatibus, hic aliquam nulla saepe accusantium fugiat, velit illo animi magnam rerum nam! Ex sunt nostrum odit. Rem!</p></div>
-			<div class="item main-row-1"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis adipisci nostrum nemo voluptatibus, hic aliquam nulla saepe accusantium fugiat, velit illo animi magnam rerum nam! Ex sunt nostrum odit. Rem!</p></div>
-			<div class="item main-row-1"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis adipisci nostrum nemo voluptatibus, hic aliquam nulla saepe accusantium fugiat, velit illo animi magnam rerum nam! Ex sunt nostrum odit. Rem!</p></div>
-			<div class="item main-row-2"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis adipisci nostrum nemo voluptatibus, hic aliquam nulla saepe accusantium fugiat, velit illo animi magnam rerum nam! Ex sunt nostrum odit. Rem!</p></div>
-			<div class="item main-row-2"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis adipisci nostrum nemo voluptatibus, hic aliquam nulla saepe accusantium fugiat, velit illo animi magnam rerum nam! Ex sunt nostrum odit. Rem!</p></div>
-		</main>
-		<footer>
-			<div class="info"></div>
-			<div class="social"></div>
-		</footer>
-	</body>
+            <li class="navbar_link first"><a href="#">HTML</a></li>
+            <li class="navbar_link second"><a href="#">CSS</a></li>
+            <li class="navbar_link third"><a href="#">Responsive</a></li>
+            <li class="navbar_link four"><a href="#principles_section">Flexbox</a></li>
+
+
+
+        </ul>
+    </nav>
+    <main>
+        <h2>FLEXBOX : L'ESSENTIEL</h2>
+        <ul class = "summary">
+            <h3>Sommaire</h3>
+            <li><a href="#principles_section">Principes de base</a></li>
+            <li><a href="#parent_section">Propriétés du parent</a></li>
+            <li><a href="#child_section">Propriétés des enfants</a></li>
+        </ul>
+        <div class="flex_tuto_section" id="principles_section">
+            <div class="title_section">
+                <h3>LES PRINCIPES DE BASE</h3>
+            </div>
+            <article class="flex_tuto_item">
+                <p>Le principe des flexboxs reposent sur la gestion des blocs selon deux axes :</p>
+                <p><span style="background-color: #555555; border-radius: 2px; padding: 0px 4px; color: #d16033">main-axis</span></p>
+            </article>
+            <article class="flex_tuto_item">
+                <p><span style="background-color: #555555; border-radius: 2px; padding: 0px 4px; color: #d16033">cross-axis</span></p>
+            </article>
+
+        </div>
+
+        <div class="flex_tuto_section" id="parent_section">
+            <div class="title_section">
+                <h3>PROPRIÉTÉS DU PARENT</h3>
+            </div>
+
+            <article class="flex_tuto_item">
+
+            </article>
+            <article class="flex_tuto_item">
+                
+            </article>
+
+        </div>
+
+        <div class="flex_tuto_section" id="child_section">
+            <div class="title_section">
+                <h3>PROPRIÉTÉS DES ENFANTS</h3>
+            </div>
+
+            <article class="flex_tuto_item">
+
+            </article>
+            <article class="flex_tuto_item">
+                
+            </article>
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="name">Travail Scolaire</div>
+        <div class="credits">© IIM A2</div>
+
+    </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+</body>

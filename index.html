@@ -19,7 +19,7 @@
             <li class="navbar_link first"><a href="#">HTML</a></li>
             <li class="navbar_link second"><a href="#">CSS</a></li>
             <li class="navbar_link third"><a href="#">Responsive</a></li>
-            <li class="navbar_link four"><a href="#">Flexbox</a></li>
+            <li class="navbar_link four"><a href="#principles_section">Flexbox</a></li>
 
 
 
@@ -34,23 +34,134 @@
                 to organize the divs and so to put them side by side properly. In responsive use the flex-direction </div>
             <div class="content-second-row contenu5">To add responsive: add the viewport meta tag in the header. Then use the @media in the css file with the size of the screen </div>
         </div>
+        
+        <h2>FLEXBOX : L'ESSENTIEL</h2>
+        <ul class = "summary">
+            <h3>Sommaire</h3>
+            <li><a href="#principles_section">Principes de base</a></li>
+            <li><a href="#parent_section">Propriétés du parent</a></li>
+            <li><a href="#child_section">Propriétés des enfants</a></li>
+        </ul>
+        <div class="flex_tuto_section" id="principles_section">
+            <div class="title_section">
+                <h3>LES PRINCIPES DE BASE</h3>
+            </div>
+            <article class="flex_tuto_item">
+                <p>Le principe des flexboxs reposent sur la gestion des blocs selon deux axes : soit sur l'axe principal (main axis) soit sur l'axe perpendiculaire (cross axis)</p><br>
+                <p><span class="key-word">main axis</span>: La direction de l'axe principal dépend de la propriété flex-direction dont nous parlerons plus tard en détail.</p>
+            </article>
+            <article class="flex_tuto_item">
+                <p><span class="key-word">cross axis</span>: Le cross axis étant perpendiculaire au main axis, il change également en fonction de la direction assignée au main axis.<br>
+                Certaines propriétés du flexbox sont à appliquer aux parents des éléments à placer, alors que d'autres sont à appliquer aux éléments directement</p>
 
+            </article>
+
+        </div>
+
+        <div class="flex_tuto_section" id="parent_section">
+            <div class="title_section">
+                <h3>PROPRIÉTÉS DU PARENT</h3>
+            </div>
+
+            <article class="flex_tuto_item">
+                <p><span class="key-word">display</span></p>
+                <p class="prop_description">Il permet d'identifier le parent des éléments à placer, il prend généralement pour valeur flex, mais il existe aussi inline-flex.</p>
+            </article>
+            <article class="flex_tuto_item">
+                <p><span class="key-word">flex-direction</span>: Définit la direction de l'axe principal</p>
+                <p class="prop_description">
+                    <ul>
+                        <li><span class="key-word-arg">row</span>: de gauche à droite</li>
+                        <li><span class="key-word-arg">row-reverse</span>: de droite à gauche</li>
+                        <li><span class="key-word-arg">column</span>: de haut en bas</li>
+                        <li><span class="key-word-arg">column-reverse</span>: de bas en haut</li>
+                    </ul>
+                </p>
+            </article>
+            <article class="flex_tuto_item">
+                <p><span class="key-word">flex-wrap</span></p>
+                <ul>
+                    <li><span class="key-word-arg">nowrap</span>: tout est sur la même ligne</li>
+                    <li><span class="key-word-arg">wrap</span>: les éléments reviennent à la ligne quand ils manquent d'espace, de haut en bas</li>
+                    <li><span class="key-word-arg">wrap-reverse</span>: les éléments reviennent à la ligne quand ils manquent d'espace, de bas en haut</li>
+                </ul>
+                <p class="prop_description">Il permet d'identifier le parent des éléments à placer, il prend généralement pour valeur flex, mais il existe aussi inline-flex.</p>
+            </article>
+            <article class="flex_tuto_item">
+                <p><span class="key-word">flex-flow</span></p>
+                <p class="prop_description">Il permet de condenser l'écriture du flex-direction et du flex-wrap. Exemple : <span class="key-word-arg">flex-flow: column wrap</span></p>
+            </article>
+            <article class="flex_tuto_item">
+                <p><span class="key-word">justify-content</span></p>
+                <p class="prop_description">Cette description est en cours d'écriture</p>
+            </article>
+            <article class="flex_tuto_item">
+                <p><span class="key-word">align-items</span></p>
+                <p class="prop_description">Cette description est en cours d'écriture</p>
+
+            </article>
+            <article class="flex_tuto_item">
+                <p><span class="key-word">align-content</span></p>
+                <p class="prop_description">Cette description est en cours d'écriture</p>
+
+            </article>
+            <article class="flex_tuto_item">
+                <p><span class="key-word">gap</span></p>
+                <p class="prop_description">Cette description est en cours d'écriture</p>
+
+            </article>
+            <article class="flex_tuto_item">
+                <p><span class="key-word">display</span></p>
+                <p class="prop_description">Cette description est en cours d'écriture</p>
+
+            </article>
+
+        </div>
+
+        <div class="flex_tuto_section" id="child_section">
+            <div class="title_section">
+                <h3>PROPRIÉTÉS DES ENFANTS</h3>
+            </div>
+
+            <article class="flex_tuto_item">
+                <p><span class="key-word">order</span></p>
+                <p class="prop_description">Cette description est en cours d'écriture</p>
+            </article>
+            <article class="flex_tuto_item">
+                <p><span class="key-word">flex-basis</span></p>
+                <p class="prop_description">Cette description est en cours d'écriture</p>
+            </article>
+            <article class="flex_tuto_item">
+                <p><span class="key-word">flex-grow</span></p>
+                <p class="prop_description">Cette description est en cours d'écriture</p>
+            </article>
+            <article class="flex_tuto_item">
+                <p><span class="key-word">flex-shrink</span></p>
+                <p class="prop_description">Cette description est en cours d'écriture</p>
+            </article>
+            <article class="flex_tuto_item">
+                <p><span class="key-word">align-self</span></p>
+                <p class="prop_description">Cette description est en cours d'écriture</p>
+            </article>
+
+        </div>
+
+        <div class="flex_tuto_section" id="child_section">
+            <div class="title_section">
+                <h3>EN APPRENDRE PLUS</h3>
+            </div>
+
+            <article class="flex_tuto_item">
+                <a href ="https://flexboxfroggy.com/#fr"><span style="text-decoration: underline">Flexbox froggy</span> : pour apprendre via des mini défis</a><br>
+                <a href ="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"><span style="text-decoration: underline">La documentation MDN</span> : pour apprendre via des mini défis</a>
+
+            </article>
+
+        </div>
+        
     </main>
     <footer>
         <div class="name">Travail Scolaire</div>
         <div class="credits">© IIM A2</div>
     </footer>
-    
-
-
-
-
-
-
-
-
-
-
-
-
 </body>

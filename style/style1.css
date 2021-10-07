@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    color: #fff;
 }
 
 li {
@@ -47,8 +48,6 @@ header {
     padding-top: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    display: flex;
-    flex-wrap: wrap;
     min-height: 100vh;
 
 }
@@ -145,8 +144,66 @@ footer {
         font-size: 25px;
         margin-left: 50px;
     }
+}
+
+/* FLEXBOX TUTO ---------------------------------------------- */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main{
+    background-color: rgb(22, 21, 21);
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+main h2 {
+    text-align: center;
+}
+.flex_tuto_section {
+
+    margin: 20px;
+    border: 1px solid #575757;
+}
+
+.title_section {
+    border-bottom: 1px solid #575757;
+    width: 100%;
+    padding: 20px;
+}
+
+.flex_tuto_item {
+    padding: 10px;
+    font-family: sans-serif;
+}
+.flex_tuto_item ul {
+    padding-left: 20px;
+}
+.key-word {
+    background-color: #555555; 
+    border-radius: 2px; 
+    padding: 0px 4px; 
+    color: #d16033;
+}
+
+.key-word-arg {
+    background-color: #555555; 
+    border-radius: 2px; 
+    padding: 0px 4px; 
+    color: #33d1d1;
+}
 
 
+.example_container {
+    display: flex;
+    width: 100%;
+}
 
-
+.main_axis {
+    border: 1px solid #d16033;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
 }

@@ -175,18 +175,26 @@ main h2 {
 }
 
 .flex_tuto_item {
-    height: 200px;
     padding: 10px;
     font-family: sans-serif;
 }
-
+.flex_tuto_item ul {
+    padding-left: 20px;
+}
 .key-word {
     background-color: #555555; 
     border-radius: 2px; 
     padding: 0px 4px; 
     color: #d16033;
-    
 }
+
+.key-word-arg {
+    background-color: #555555; 
+    border-radius: 2px; 
+    padding: 0px 4px; 
+    color: #33d1d1;
+}
+
 
 .example_container {
     display: flex;

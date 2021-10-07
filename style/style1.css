@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -23,12 +22,6 @@ header {
 
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-    min-height: 100vh;
-}
-
 .navbar {
     background-color: black;
     padding:10px;
@@ -50,19 +43,18 @@ main {
 }
 
 .sec1 {
-
     background-color: rgb(22, 21, 21);
     padding-top: 10px;
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
     flex-wrap: wrap;
-
+    min-height: 100vh;
 
 }
 
 footer {
-    width: calc(100%);
+    width: 100%;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -74,7 +66,7 @@ footer {
     align-items: flex-end;
     display: flex;
     justify-content: left;
-    width: calc(30%);
+    width: 30%;
 }
 
 .credits {
@@ -85,11 +77,16 @@ footer {
     width: 25%;
 }
 
-.contenu1, .contenu2, .contenu3, .contenu4, .contenu5 {
+.basic_front {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.basic_front div {
     border: 1px solid white;
 }
 
-.contenu1 {
+.content-first-row {
     width : calc(100%/3);
     background-color: black;
     display: flex;
@@ -99,42 +96,7 @@ footer {
     margin-bottom: 1%;
 }
 
-
-
-.contenu2 {
-    width : calc(100%/3);
-    background-color: black;
-    display: flex;
-    text-align: center;
-    color: white;
-    padding: 1%;
-    margin-bottom: 1%;
-}
-
-
-.contenu3 {
-    width : calc(100%/3);
-    background-color: black;
-    display: flex;
-    text-align: center;
-    color: white;
-    padding: 1%;
-    margin-bottom: 1%;
-}
-
-.contenu4 {
-    width : calc(100%/2);
-    background-color: black;
-    display: flex;
-    flex-wrap: nowrap;
-    text-align: center;
-    color: white;
-    padding: 1%;
-    
-}
-
-
-.contenu5 {
+.content-second-row {
     width : calc(100%/2);
     background-color: black;
     display: flex;
@@ -147,69 +109,42 @@ footer {
 
 @media screen and (max-width: 800px) {
 
-header {
-    width: 100%;
-    height: 60px;
-}
-
-.navbar {
-    width: 100%;
-    height: 80px;
-    font-size: 30px;
-}
-
-.sec1 {
-    width: 100%;
-    flex-direction: column;
-
-}
-    .contenu1, .contenu2, .contenu3, .contenu4, .contenu5 {
-        border: 1px solid white;
+    header {
+        width: 100%;
+        height: 60px;
     }
 
-.contenu1 {
-    width : calc(100%/3);
-    padding-left: 40px;
-    padding-right: 25px;
-    font-size: 25px;
+    .navbar {
+        width: 100%;
+        height: 80px;
+        font-size: 30px;
+    }
 
-    margin-left: 50px;
+    .basic_front {
+        width: 100%;
+        flex-direction: column;
+    }
     
-}
+    .basic_front div{
+            border: 1px solid white;
+    }
 
-.contenu2 {
-    width : calc(100%/3);
-    padding-left: 40px;
-    padding-right: 25px;
-    font-size: 25px;
+    .content-first-row {
+        width : calc(100%/3);
+        padding-left: 40px;
+        padding-right: 25px;
+        font-size: 25px;
+        margin-left: 50px;
+        
+    }
 
-    margin-left: 50px;
-}
-
-.contenu3 {
-    width : calc(100%/3);
-    padding-left: 40px;
-    padding-right: 25px;
-    font-size: 25px;
-
-    margin-left: 50px;
-}
-
-.contenu4 {
-    width : calc(100%/2);
-    padding-left: 40px;
-    padding-right: 25px;
-    font-size: 25px;
-    margin-left: 50px;
-}
-
-.contenu5 {
-    width: calc(100%/2);
-    padding-left: 40px;
-    padding-right: 25px;
-    font-size: 25px;
-    margin-left: 50px;
-}
+    .content-second-row {
+        width: calc(100%/2);
+        padding-left: 40px;
+        padding-right: 25px;
+        font-size: 25px;
+        margin-left: 50px;
+    }
 
 
 

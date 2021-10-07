@@ -57,27 +57,27 @@ header {
 }
 
 footer {
+    width: calc(100%);
     background-color: black;
-    height: 65px;
     display: flex;
+    justify-content: space-between;
 }
 
 .name {
     color: white;
     padding: 11px;
-    align-items: center;
-    justify-content: right;
+    align-items: flex-end;
     display: flex;
+    width: calc(30%);
 }
 
 .credits {
     color: white;
     padding-left: 11px;
-    align-items: center;
-    justify-content: left;
+    align-items: flex-end;
     display: flex;
-    margin-left: 1279px;
-    
+    justify-content: right;
+    width: calc(25%);
 }
 
 
@@ -170,7 +170,7 @@ footer {
 
 @media screen and (max-width: 800px) {
 
-.header {
+header {
     width: 1100px;
     height: 60px;
 }
@@ -188,9 +188,8 @@ footer {
     
 }
 
-.footer {
-    width: 1100px;
-    height: 120px;
+footer {
+
 }
 
 .name {

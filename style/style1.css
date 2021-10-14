@@ -76,6 +76,8 @@ footer {
     display: flex;
     justify-content: right;
     width: 25%;
+    margin-bottom: 2vh;
+    margin-right: 2vh;
 }
 
 .basic_front, .second_flex {
@@ -107,6 +109,10 @@ footer {
     padding: 1%;
 }
 
+.summary {
+    margin-left: 2vh;
+}
+
 
 @media screen and (max-width: 800px) {
 
@@ -125,7 +131,10 @@ footer {
 
     }
 
-
+    .basic_front {
+        width: 100%;
+        flex-direction: column;
+    }
     
     .basic_front div{
             border: 1px solid white;
@@ -149,6 +158,15 @@ footer {
 
     footer {
         bottom: 0%;
+    }
+
+    .credits {
+        margin-bottom: 2vh;
+        margin-right: 2vh;
+    }
+
+    .summary {
+        margin-left: 2vh;
     }
 
 

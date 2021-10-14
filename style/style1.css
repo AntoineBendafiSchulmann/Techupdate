@@ -78,12 +78,12 @@ footer {
     width: 25%;
 }
 
-.basic_front {
+.basic_front, .second_flex {
     display: flex;
     flex-wrap: wrap;
 }
 
-.basic_front div {
+.basic_front div, .second_flex div {
     border: 1px solid white;
 }
 
@@ -111,45 +111,37 @@ footer {
 @media screen and (max-width: 800px) {
 
     header {
-        width: 58.6vh;
+        width: 100vw;
         height: 60px;
     }
 
     .navbar {
-        width: 58.6vh;
+        width: 100vw;
         height: 80px;
-        font-size: 30px;
     }
 
     body {
-        width: 58.6vh;
+        width: 100vw;
 
     }
 
-    .basic_front {
-        width: 100%;
-        flex-direction: column;
-    }
+
     
     .basic_front div{
             border: 1px solid white;
-            width: 35vh;
     }
 
     .content-first-row {
-        width : calc(100%/3);
         padding-left: 40px;
         padding-right: 25px;
-        font-size: 25px;
         margin-left: 50px;
         
     }
 
     .content-second-row {
-        width: calc(100%/2);
+
         padding-left: 40px;
         padding-right: 25px;
-        font-size: 25px;
         margin-left: 50px;
     }
 
